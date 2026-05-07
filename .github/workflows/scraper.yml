@@ -2,11 +2,11 @@ name: Scheduled Scraper
 
 on:
   schedule:
-    - cron: '0 0 * * 1'
-    - cron: '0 0 * * 3'
-    - cron: '0 0 * * 5'
-    - cron: '0 0 * * 6'
-    - cron: '0 0 * * 0'
+    - cron: '0 0 * * 1' # Monday
+    - cron: '0 0 * * 3' # Wednesday
+    - cron: '0 0 * * 5' # Friday
+    - cron: '0 0 * * 6' # Saturday
+    - cron: '0 0 * * 0' # Sunday
   workflow_dispatch:
 
 permissions:
