@@ -26,7 +26,7 @@ export default async function handler(req, res) {
     const auth = req.headers.authorization || '';
     const token = auth.startsWith('Bearer ') ? auth.slice(7) : null;
     if (!isAuthorized(token, configuredToken)) {
-      return res.status(401).json({ error: 'Unauthorized' });
+      return res.status(401).json({ error: 'Invalid or missing authorization token' });
     }
   }
 
