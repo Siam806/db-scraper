@@ -1,0 +1,16 @@
+{
+  "name": "db-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "scrape": "node scripts/run-scraper.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.105.3"
+  }
+}
