@@ -1,4 +1,20 @@
 import { scrapeAllLeagues, scrapeLeague } from '../lib/scraper.js';
+import { timingSafeEqual } from 'node:crypto';
+
+function isAuthorized(providedToken, configuredToken) {
+  if (!providedToken || !configuredToken) {
+    return false;
+  }
+
+  const providedBuffer = Buffer.from(providedToken);
+  const configuredBuffer = Buffer.from(configuredToken);
+
+  if (providedBuffer.length !== configuredBuffer.length) {
+    return false;
+  }
+
+  return timingSafeEqual(providedBuffer, configuredBuffer);
+}
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -9,7 +25,7 @@ export default async function handler(req, res) {
   if (configuredToken) {
     const auth = req.headers.authorization || '';
     const token = auth.startsWith('Bearer ') ? auth.slice(7) : null;
-    if (token !== configuredToken) {
+    if (!isAuthorized(token, configuredToken)) {
       return res.status(401).json({ error: 'Unauthorized' });
     }
   }
