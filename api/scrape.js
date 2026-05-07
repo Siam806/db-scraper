@@ -15,7 +15,9 @@ export default async function handler(req, res) {
   }
 
   try {
-    const league = req.query?.league || req.body?.league;
+    const queryLeague = typeof req.query?.league === 'string' ? req.query.league : undefined;
+    const bodyLeague = typeof req.body?.league === 'string' ? req.body.league : undefined;
+    const league = queryLeague ?? bodyLeague;
     const result = league ? await scrapeLeague(league) : await scrapeAllLeagues();
     return res.status(200).json({ ok: true, result });
   } catch (error) {

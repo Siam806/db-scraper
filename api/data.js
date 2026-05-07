@@ -1,17 +1,4 @@
-import { createClient } from '@supabase/supabase-js';
-
-function createSupabaseFromEnv() {
-  const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
-
-  if (!url || !key) {
-    throw new Error('SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY must be set');
-  }
-
-  return createClient(url, key, {
-    auth: { persistSession: false }
-  });
-}
+import { createSupabaseFromEnv } from '../lib/supabase.js';
 
 export default async function handler(req, res) {
   if (req.method !== 'GET') {
