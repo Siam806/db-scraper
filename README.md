@@ -18,6 +18,13 @@ The scraper configuration is league-based (`/lib/leagues.js`) so additional leag
   - Optional auth via `SCRAPER_API_TOKEN` and `Authorization: Bearer <token>`.
 - `GET /api/data?league=verbandsliga-baseball&kind=scorelines`
   - Returns latest stored record (`kind=scorelines|statistics`).
+  - Optional query parameters:
+    - `group=team|date`
+    - `team=<team-code>`
+    - `section=offense|defense|pitching`
+    - `sort=<metric>`
+    - `order=asc|desc`
+    - `leader=top|bottom`
 
 ## Supabase requirements
 
