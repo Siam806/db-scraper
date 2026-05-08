@@ -4,11 +4,8 @@ Scraper service for baseball leagues that stores scorelines and statistics in Su
 
 ## Current league support
 
-- `verbandsliga-baseball`
-  - Scorelines: `https://hbsv.de/spielbetrieb/verbandsliga-baseball/`
-  - Statistics: `https://hbsv.de/statistiken/verbandsliga-baseball/`
-
-The scraper configuration is league-based (`/lib/leagues.js`) so additional leagues can be added with URL mappings.
+The scraper supports multiple baseball and softball leagues from the HBSV site.
+Leagues are configured in `lib/leagues.js` with separate scorelines and statistics page URLs, so additional leagues can be added by adding new league entries.
 
 ## API endpoints (Vercel)
 
