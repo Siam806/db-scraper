@@ -1,6 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { aggregateScorelines, aggregateStatistics } from '../lib/data-aggregator.js';
+import {
+  aggregateScorelines,
+  aggregateStatistics,
+  normalizeScorelinesData,
+  normalizeStatisticsData
+} from '../lib/data-aggregator.js';
 
 test('aggregateScorelines groups by team and date', () => {
   const data = {
@@ -113,4 +118,40 @@ test('aggregateStatistics sorts section rows by numeric metric', () => {
 
   assert.equal(result.rows[0].team, 'HOM2');
   assert.equal(result.rows[1].team, 'RUS');
+});
+
+test('normalizeScorelinesData returns rows as readable objects', () => {
+  const data = {
+    tables: [
+      {
+        section: 'Tabelle',
+        headers: ['#', 'Team', 'Team', 'G', 'W', 'L', 'PCT', 'GB', 'STK'],
+        rows: [['1.', 'Rüsselsheim Moskitos', 'RUS', '3', '3', '-', '1.000', '-', 'W3']]
+      }
+    ]
+  };
+
+  const result = normalizeScorelinesData(data);
+
+  assert.equal(result.tables[0].rows[0].team, 'Rüsselsheim Moskitos');
+  assert.equal(result.tables[0].rows[0].team_2, 'RUS');
+  assert.equal(result.tables[0].rows[0].pct, '1.000');
+});
+
+test('normalizeStatisticsData returns named rows and grouped sections', () => {
+  const data = {
+    tables: [
+      {
+        section: 'Offense',
+        headers: ['Team', 'AB', 'R'],
+        rows: [['RUS', '10', '7']]
+      }
+    ]
+  };
+
+  const result = normalizeStatisticsData(data);
+
+  assert.equal(result.tables[0].rows[0].team, 'RUS');
+  assert.deepEqual(Object.keys(result.sections), ['offense']);
+  assert.ok(result.groupedByTeam.RUS);
 });

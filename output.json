@@ -1,0 +1,1702 @@
+{
+  "ok": true,
+  "data": {
+    "league_key": "verbandsliga-baseball",
+    "source_url": "https://hbsv.de/spielbetrieb/verbandsliga-baseball/",
+    "scraped_at": "2026-05-08T10:40:33.793+00:00",
+    "data": {
+      "tables": [
+        {
+          "rows": [
+            [
+              "1.",
+              "Rüsselsheim Moskitos",
+              "RUS",
+              "3",
+              "3",
+              "-",
+              "1.000",
+              "-",
+              "W3"
+            ],
+            [
+              "2.",
+              "Friedberg Braves",
+              "FRI",
+              "2",
+              "2",
+              "-",
+              "1.000",
+              "0.5",
+              "W2"
+            ],
+            [
+              "3.",
+              "Frankfurt 1860",
+              "FRA",
+              "2",
+              "2",
+              "-",
+              "1.000",
+              "0.5",
+              "W2"
+            ],
+            [
+              "4.",
+              "Main-Taunus Redwings",
+              "MTR",
+              "1",
+              "1",
+              "-",
+              "1.000",
+              "1",
+              "W1"
+            ],
+            [
+              "5.",
+              "Fulda Blackhorses",
+              "FUL",
+              "1",
+              "-",
+              "1",
+              ".000",
+              "2",
+              "L1"
+            ],
+            [
+              "6.",
+              "Kassel Herkules",
+              "KAS",
+              "2",
+              "-",
+              "2",
+              ".000",
+              "2.5",
+              "L2"
+            ],
+            [
+              "7.",
+              "Darmstadt Whippets 2",
+              "DAW2",
+              "2",
+              "-",
+              "2",
+              ".000",
+              "2.5",
+              "L2"
+            ],
+            [
+              "8.",
+              "Bad Homburg Hornets 2",
+              "HOM2",
+              "3",
+              "-",
+              "3",
+              ".000",
+              "3",
+              "L3"
+            ]
+          ],
+          "headers": [
+            "#",
+            "Team",
+            "Team",
+            "G",
+            "W",
+            "L",
+            "PCT",
+            "GB",
+            "STK"
+          ],
+          "section": "Tabelle"
+        },
+        {
+          "rows": [
+            [
+              "12.04.2026",
+              "13:00",
+              "0401016",
+              "",
+              "RUS",
+              "HOM2",
+              "Baseball am Keglerheim 15",
+              "FRA",
+              "RUS",
+              "22:12"
+            ],
+            [
+              "18.04.2026",
+              "13:00",
+              "0401002",
+              "",
+              "RUS",
+              "DAW2",
+              "Baseball am Keglerheim 15",
+              "FRA",
+              "RUS",
+              "ppd"
+            ],
+            [
+              "18.04.2026",
+              "14:00",
+              "0401003",
+              "",
+              "MTR",
+              "HOM2",
+              "Sportpark Heide",
+              "FRI",
+              "MTR",
+              "19:1"
+            ],
+            [
+              "19.04.2026",
+              "13:00",
+              "0401005",
+              "",
+              "FRA",
+              "KAS",
+              "Stadion an den Sandhöfer Wiesen",
+              "DAW",
+              "FRA",
+              "17:1"
+            ],
+            [
+              "26.04.2026",
+              "15:00",
+              "0401007",
+              "",
+              "FRI",
+              "DAW2",
+              "Spielfeld „Seewiese“",
+              "FUL",
+              "FRI",
+              "13:9"
+            ],
+            [
+              "26.04.2026",
+              "13:00",
+              "0401008",
+              "",
+              "RUS",
+              "KAS",
+              "Baseball am Keglerheim 15",
+              "MTR",
+              "RUS",
+              "13:3"
+            ],
+            [
+              "02.05.2026",
+              "14:00",
+              "0401009",
+              "",
+              "DAW2",
+              "RUS",
+              "Memory-Field",
+              "HOM",
+              "DAW",
+              "23:25"
+            ],
+            [
+              "02.05.2026",
+              "13:00",
+              "0401010",
+              "",
+              "HOM2",
+              "FRI",
+              "Taunus-Baseballpark",
+              "KAS",
+              "HOM",
+              "3:21"
+            ],
+            [
+              "03.05.2026",
+              "13:00",
+              "0401011",
+              "",
+              "FUL",
+              "FRA",
+              "Field#1, Münsterfeldpark",
+              "RUS",
+              "FUL",
+              "2:12"
+            ],
+            [
+              "09.05.2026",
+              "13:00",
+              "0401013",
+              "",
+              "FUL",
+              "RUS",
+              "Field#1, Münsterfeldpark",
+              "DAW",
+              "FUL",
+              "-"
+            ],
+            [
+              "09.05.2026",
+              "13:00",
+              "0401014",
+              "",
+              "KAS",
+              "FRI",
+              "Herkules Field",
+              "HOM",
+              "KAS",
+              "-"
+            ],
+            [
+              "16.05.2026",
+              "13:00",
+              "0401001",
+              "",
+              "HOM2",
+              "RUS",
+              "Taunus-Baseballpark",
+              "MTR",
+              "HOM",
+              "-"
+            ],
+            [
+              "16.05.2026",
+              "13:00",
+              "0401015",
+              "",
+              "FRI",
+              "KAS",
+              "Spielfeld „Seewiese“",
+              "DAW",
+              "FRI",
+              "-"
+            ],
+            [
+              "17.05.2026",
+              "13:00",
+              "0401017",
+              "",
+              "FRA",
+              "FUL",
+              "Stadion an den Sandhöfer Wiesen",
+              "RUS",
+              "FRA",
+              "-"
+            ],
+            [
+              "24.05.2026",
+              "14:00",
+              "0401018",
+              "",
+              "MTR",
+              "DAW2",
+              "Sportpark Heide",
+              "RUS",
+              "MTR",
+              "-"
+            ],
+            [
+              "24.05.2026",
+              "13:00",
+              "0401019",
+              "",
+              "KAS",
+              "FUL",
+              "Herkules Field",
+              "FRA",
+              "KAS",
+              "-"
+            ],
+            [
+              "25.05.2026",
+              "13:00",
+              "0401020",
+              "",
+              "FRI",
+              "HOM2",
+              "Spielfeld „Seewiese“",
+              "DAW",
+              "FRI",
+              "-"
+            ],
+            [
+              "30.05.2026",
+              "13:00",
+              "0401023",
+              "",
+              "RUS",
+              "FRI",
+              "Baseball am Keglerheim 15",
+              "HOM",
+              "RUS",
+              "-"
+            ],
+            [
+              "31.05.2026",
+              "13:00",
+              "0401024",
+              "",
+              "DAW2",
+              "KAS",
+              "Memory-Field",
+              "RUS",
+              "DAW",
+              "-"
+            ],
+            [
+              "31.05.2026",
+              "13:00",
+              "0401025",
+              "",
+              "FUL",
+              "HOM2",
+              "Field#1, Münsterfeldpark",
+              "FRI",
+              "FUL",
+              "-"
+            ],
+            [
+              "06.06.2026",
+              "13:00",
+              "0401026",
+              "",
+              "HOM2",
+              "DAW2",
+              "Taunus-Baseballpark",
+              "FRA",
+              "HOM",
+              "-"
+            ],
+            [
+              "06.06.2026",
+              "13:00",
+              "0401027",
+              "",
+              "KAS",
+              "RUS",
+              "Herkules Field",
+              "FUL",
+              "KAS",
+              "-"
+            ],
+            [
+              "07.06.2026",
+              "14:00",
+              "0401028",
+              "",
+              "MTR",
+              "FRA",
+              "Sportpark Heide",
+              "RUS",
+              "MTR",
+              "-"
+            ],
+            [
+              "07.06.2026",
+              "13:00",
+              "0401029",
+              "",
+              "FUL",
+              "FRI",
+              "Field#1, Münsterfeldpark",
+              "HOM",
+              "FUL",
+              "-"
+            ],
+            [
+              "13.06.2026",
+              "13:00",
+              "0401030",
+              "",
+              "KAS",
+              "HOM2",
+              "Herkules Field",
+              "FRI",
+              "KAS",
+              "-"
+            ],
+            [
+              "13.06.2026",
+              "13:00",
+              "0401031",
+              "",
+              "RUS",
+              "MTR",
+              "Baseball am Keglerheim 15",
+              "FUL",
+              "RUS",
+              "-"
+            ],
+            [
+              "14.06.2026",
+              "15:30",
+              "0401052",
+              "",
+              "FRA",
+              "FRI",
+              "Stadion an den Sandhöfer Wiesen",
+              "MTR",
+              "FRA",
+              "-"
+            ],
+            [
+              "20.06.2026",
+              "13:00",
+              "0401034",
+              "",
+              "FRA",
+              "HOM2",
+              "Stadion an den Sandhöfer Wiesen",
+              "KAS",
+              "FRA",
+              "-"
+            ],
+            [
+              "20.06.2026",
+              "13:00",
+              "0401035",
+              "",
+              "RUS",
+              "FUL",
+              "Baseball am Keglerheim 15",
+              "DAW",
+              "RUS",
+              "-"
+            ],
+            [
+              "21.06.2026",
+              "13:00",
+              "0401036",
+              "",
+              "KAS",
+              "DAW2",
+              "Herkules Field",
+              "FUL",
+              "KAS",
+              "-"
+            ],
+            [
+              "21.06.2026",
+              "16:00",
+              "0401037",
+              "",
+              "FRI",
+              "MTR",
+              "Sportpark Heide",
+              "HOM",
+              "FRI",
+              "-"
+            ],
+            [
+              "27.06.2026",
+              "13:00",
+              "0401038",
+              "",
+              "DAW2",
+              "MTR",
+              "Memory-Field",
+              "FRI",
+              "DAW",
+              "-"
+            ],
+            [
+              "27.06.2026",
+              "13:00",
+              "0401039",
+              "",
+              "HOM2",
+              "FUL",
+              "Taunus-Baseballpark",
+              "KAS",
+              "HOM",
+              "-"
+            ],
+            [
+              "28.06.2026",
+              "13:00",
+              "0401040",
+              "",
+              "KAS",
+              "FRA",
+              "Herkules Field",
+              "MTR",
+              "KAS",
+              "-"
+            ],
+            [
+              "28.06.2026",
+              "13:00",
+              "0401041",
+              "",
+              "FRI",
+              "RUS",
+              "Baseball am Keglerheim 15",
+              "FUL",
+              "FRI",
+              "-"
+            ],
+            [
+              "04.07.2026",
+              "13:00",
+              "0401042",
+              "",
+              "HOM2",
+              "KAS",
+              "Taunus-Baseballpark",
+              "FUL",
+              "HOM",
+              "-"
+            ],
+            [
+              "04.07.2026",
+              "13:00",
+              "0401043",
+              "",
+              "DAW2",
+              "FRA",
+              "Memory-Field",
+              "MTR",
+              "DAW",
+              "-"
+            ],
+            [
+              "05.07.2026",
+              "13:00",
+              "0401044",
+              "",
+              "MTR",
+              "FUL",
+              "Sportpark Heide",
+              "FRA",
+              "MTR",
+              "-"
+            ],
+            [
+              "11.07.2026",
+              "13:00",
+              "0401045",
+              "",
+              "FRA",
+              "DAW2",
+              "Stadion an den Sandhöfer Wiesen",
+              "RUS",
+              "FRA",
+              "-"
+            ],
+            [
+              "11.07.2026",
+              "13:00",
+              "0401046",
+              "",
+              "MTR",
+              "FRI",
+              "Sportpark Heide",
+              "FUL",
+              "MTR",
+              "-"
+            ],
+            [
+              "12.07.2026",
+              "13:00",
+              "0401047",
+              "",
+              "FUL",
+              "KAS",
+              "Field#1, Münsterfeldpark",
+              "MTR",
+              "FUL",
+              "-"
+            ],
+            [
+              "18.07.2026",
+              "13:00",
+              "0401048",
+              "",
+              "MTR",
+              "RUS",
+              "Sportpark Heide",
+              "HOM",
+              "MTR",
+              "-"
+            ],
+            [
+              "26.07.2026",
+              "13:00",
+              "0401004",
+              "",
+              "FRI",
+              "FUL",
+              "Spielfeld „Seewiese“",
+              "KAS",
+              "FRI",
+              "-"
+            ],
+            [
+              "01.08.2026",
+              "13:00",
+              "0401049",
+              "",
+              "HOM2",
+              "MTR",
+              "Taunus-Baseballpark",
+              "RUS",
+              "HOM",
+              "-"
+            ],
+            [
+              "01.08.2026",
+              "13:00",
+              "0401050",
+              "",
+              "DAW2",
+              "FRI",
+              "Memory-Field",
+              "FRA",
+              "DAW",
+              "-"
+            ],
+            [
+              "02.08.2026",
+              "13:00",
+              "0401051",
+              "",
+              "RUS",
+              "FRA",
+              "Baseball am Keglerheim 15",
+              "DAW",
+              "RUS",
+              "-"
+            ],
+            [
+              "08.08.2026",
+              "13:00",
+              "0401033",
+              "",
+              "FRI",
+              "FRA",
+              "Spielfeld „Seewiese“",
+              "KAS",
+              "FRI",
+              "-"
+            ],
+            [
+              "09.08.2026",
+              "13:00",
+              "0401053",
+              "",
+              "DAW2",
+              "FUL",
+              "Memory-Field",
+              "FRI",
+              "DAW",
+              "-"
+            ],
+            [
+              "15.08.2026",
+              "14:30",
+              "0401054",
+              "",
+              "MTR",
+              "KAS",
+              "Sportpark Heide",
+              "FRA",
+              "MTR",
+              "-"
+            ],
+            [
+              "15.08.2026",
+              "13:00",
+              "0401055",
+              "",
+              "DAW2",
+              "HOM2",
+              "Memory-Field",
+              "FRI",
+              "DAW",
+              "-"
+            ],
+            [
+              "16.08.2026",
+              "13:00",
+              "0401021",
+              "",
+              "FRA",
+              "RUS",
+              "Stadion an den Sandhöfer Wiesen",
+              "HOM",
+              "FRA",
+              "-"
+            ],
+            [
+              "22.08.2026",
+              "13:00",
+              "0401006",
+              "",
+              "HOM2",
+              "FRA",
+              "Taunus-Baseballpark",
+              "MTR",
+              "HOM",
+              "-"
+            ],
+            [
+              "22.08.2026",
+              "13:00",
+              "0401012",
+              "",
+              "KAS",
+              "MTR",
+              "Herkules Field",
+              "FRI",
+              "KAS",
+              "-"
+            ],
+            [
+              "23.08.2026",
+              "13:00",
+              "0401032",
+              "",
+              "FUL",
+              "DAW2",
+              "Field#1, Münsterfeldpark",
+              "KAS",
+              "FUL",
+              "-"
+            ],
+            [
+              "30.08.2026",
+              "13:00",
+              "0401022",
+              "",
+              "FRA",
+              "MTR",
+              "Stadion an den Sandhöfer Wiesen",
+              "DAW",
+              "FRA",
+              "-"
+            ],
+            [
+              "06.09.2026",
+              "13:00",
+              "0401056",
+              "",
+              "FUL",
+              "MTR",
+              "Field#1, Münsterfeldpark",
+              "KAS",
+              "FUL",
+              "-"
+            ]
+          ],
+          "headers": [
+            "Datum",
+            "Zeit",
+            "Spielnr.",
+            "",
+            "Heim",
+            "Gast",
+            "Ort",
+            "UMP",
+            "SCO",
+            "Erg."
+          ],
+          "section": "Spielplan"
+        }
+      ],
+      "schedule": [
+        {
+          "rows": [
+            {
+              "cells": [
+                "12.04.2026",
+                "13:00",
+                "0401016",
+                "",
+                "RUS",
+                "HOM2",
+                "Baseball am Keglerheim 15",
+                "FRA",
+                "RUS",
+                "22:12"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "18.04.2026",
+                "13:00",
+                "0401002",
+                "",
+                "RUS",
+                "DAW2",
+                "Baseball am Keglerheim 15",
+                "FRA",
+                "RUS",
+                "ppd"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "18.04.2026",
+                "14:00",
+                "0401003",
+                "",
+                "MTR",
+                "HOM2",
+                "Sportpark Heide",
+                "FRI",
+                "MTR",
+                "19:1"
+              ],
+              "score": "14:00"
+            },
+            {
+              "cells": [
+                "19.04.2026",
+                "13:00",
+                "0401005",
+                "",
+                "FRA",
+                "KAS",
+                "Stadion an den Sandhöfer Wiesen",
+                "DAW",
+                "FRA",
+                "17:1"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "26.04.2026",
+                "15:00",
+                "0401007",
+                "",
+                "FRI",
+                "DAW2",
+                "Spielfeld „Seewiese“",
+                "FUL",
+                "FRI",
+                "13:9"
+              ],
+              "score": "15:00"
+            },
+            {
+              "cells": [
+                "26.04.2026",
+                "13:00",
+                "0401008",
+                "",
+                "RUS",
+                "KAS",
+                "Baseball am Keglerheim 15",
+                "MTR",
+                "RUS",
+                "13:3"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "02.05.2026",
+                "14:00",
+                "0401009",
+                "",
+                "DAW2",
+                "RUS",
+                "Memory-Field",
+                "HOM",
+                "DAW",
+                "23:25"
+              ],
+              "score": "14:00"
+            },
+            {
+              "cells": [
+                "02.05.2026",
+                "13:00",
+                "0401010",
+                "",
+                "HOM2",
+                "FRI",
+                "Taunus-Baseballpark",
+                "KAS",
+                "HOM",
+                "3:21"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "03.05.2026",
+                "13:00",
+                "0401011",
+                "",
+                "FUL",
+                "FRA",
+                "Field#1, Münsterfeldpark",
+                "RUS",
+                "FUL",
+                "2:12"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "09.05.2026",
+                "13:00",
+                "0401013",
+                "",
+                "FUL",
+                "RUS",
+                "Field#1, Münsterfeldpark",
+                "DAW",
+                "FUL",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "09.05.2026",
+                "13:00",
+                "0401014",
+                "",
+                "KAS",
+                "FRI",
+                "Herkules Field",
+                "HOM",
+                "KAS",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "16.05.2026",
+                "13:00",
+                "0401001",
+                "",
+                "HOM2",
+                "RUS",
+                "Taunus-Baseballpark",
+                "MTR",
+                "HOM",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "16.05.2026",
+                "13:00",
+                "0401015",
+                "",
+                "FRI",
+                "KAS",
+                "Spielfeld „Seewiese“",
+                "DAW",
+                "FRI",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "17.05.2026",
+                "13:00",
+                "0401017",
+                "",
+                "FRA",
+                "FUL",
+                "Stadion an den Sandhöfer Wiesen",
+                "RUS",
+                "FRA",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "24.05.2026",
+                "14:00",
+                "0401018",
+                "",
+                "MTR",
+                "DAW2",
+                "Sportpark Heide",
+                "RUS",
+                "MTR",
+                "-"
+              ],
+              "score": "14:00"
+            },
+            {
+              "cells": [
+                "24.05.2026",
+                "13:00",
+                "0401019",
+                "",
+                "KAS",
+                "FUL",
+                "Herkules Field",
+                "FRA",
+                "KAS",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "25.05.2026",
+                "13:00",
+                "0401020",
+                "",
+                "FRI",
+                "HOM2",
+                "Spielfeld „Seewiese“",
+                "DAW",
+                "FRI",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "30.05.2026",
+                "13:00",
+                "0401023",
+                "",
+                "RUS",
+                "FRI",
+                "Baseball am Keglerheim 15",
+                "HOM",
+                "RUS",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "31.05.2026",
+                "13:00",
+                "0401024",
+                "",
+                "DAW2",
+                "KAS",
+                "Memory-Field",
+                "RUS",
+                "DAW",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "31.05.2026",
+                "13:00",
+                "0401025",
+                "",
+                "FUL",
+                "HOM2",
+                "Field#1, Münsterfeldpark",
+                "FRI",
+                "FUL",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "06.06.2026",
+                "13:00",
+                "0401026",
+                "",
+                "HOM2",
+                "DAW2",
+                "Taunus-Baseballpark",
+                "FRA",
+                "HOM",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "06.06.2026",
+                "13:00",
+                "0401027",
+                "",
+                "KAS",
+                "RUS",
+                "Herkules Field",
+                "FUL",
+                "KAS",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "07.06.2026",
+                "14:00",
+                "0401028",
+                "",
+                "MTR",
+                "FRA",
+                "Sportpark Heide",
+                "RUS",
+                "MTR",
+                "-"
+              ],
+              "score": "14:00"
+            },
+            {
+              "cells": [
+                "07.06.2026",
+                "13:00",
+                "0401029",
+                "",
+                "FUL",
+                "FRI",
+                "Field#1, Münsterfeldpark",
+                "HOM",
+                "FUL",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "13.06.2026",
+                "13:00",
+                "0401030",
+                "",
+                "KAS",
+                "HOM2",
+                "Herkules Field",
+                "FRI",
+                "KAS",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "13.06.2026",
+                "13:00",
+                "0401031",
+                "",
+                "RUS",
+                "MTR",
+                "Baseball am Keglerheim 15",
+                "FUL",
+                "RUS",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "14.06.2026",
+                "15:30",
+                "0401052",
+                "",
+                "FRA",
+                "FRI",
+                "Stadion an den Sandhöfer Wiesen",
+                "MTR",
+                "FRA",
+                "-"
+              ],
+              "score": "15:30"
+            },
+            {
+              "cells": [
+                "20.06.2026",
+                "13:00",
+                "0401034",
+                "",
+                "FRA",
+                "HOM2",
+                "Stadion an den Sandhöfer Wiesen",
+                "KAS",
+                "FRA",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "20.06.2026",
+                "13:00",
+                "0401035",
+                "",
+                "RUS",
+                "FUL",
+                "Baseball am Keglerheim 15",
+                "DAW",
+                "RUS",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "21.06.2026",
+                "13:00",
+                "0401036",
+                "",
+                "KAS",
+                "DAW2",
+                "Herkules Field",
+                "FUL",
+                "KAS",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "21.06.2026",
+                "16:00",
+                "0401037",
+                "",
+                "FRI",
+                "MTR",
+                "Sportpark Heide",
+                "HOM",
+                "FRI",
+                "-"
+              ],
+              "score": "16:00"
+            },
+            {
+              "cells": [
+                "27.06.2026",
+                "13:00",
+                "0401038",
+                "",
+                "DAW2",
+                "MTR",
+                "Memory-Field",
+                "FRI",
+                "DAW",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "27.06.2026",
+                "13:00",
+                "0401039",
+                "",
+                "HOM2",
+                "FUL",
+                "Taunus-Baseballpark",
+                "KAS",
+                "HOM",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "28.06.2026",
+                "13:00",
+                "0401040",
+                "",
+                "KAS",
+                "FRA",
+                "Herkules Field",
+                "MTR",
+                "KAS",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "28.06.2026",
+                "13:00",
+                "0401041",
+                "",
+                "FRI",
+                "RUS",
+                "Baseball am Keglerheim 15",
+                "FUL",
+                "FRI",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "04.07.2026",
+                "13:00",
+                "0401042",
+                "",
+                "HOM2",
+                "KAS",
+                "Taunus-Baseballpark",
+                "FUL",
+                "HOM",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "04.07.2026",
+                "13:00",
+                "0401043",
+                "",
+                "DAW2",
+                "FRA",
+                "Memory-Field",
+                "MTR",
+                "DAW",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "05.07.2026",
+                "13:00",
+                "0401044",
+                "",
+                "MTR",
+                "FUL",
+                "Sportpark Heide",
+                "FRA",
+                "MTR",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "11.07.2026",
+                "13:00",
+                "0401045",
+                "",
+                "FRA",
+                "DAW2",
+                "Stadion an den Sandhöfer Wiesen",
+                "RUS",
+                "FRA",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "11.07.2026",
+                "13:00",
+                "0401046",
+                "",
+                "MTR",
+                "FRI",
+                "Sportpark Heide",
+                "FUL",
+                "MTR",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "12.07.2026",
+                "13:00",
+                "0401047",
+                "",
+                "FUL",
+                "KAS",
+                "Field#1, Münsterfeldpark",
+                "MTR",
+                "FUL",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "18.07.2026",
+                "13:00",
+                "0401048",
+                "",
+                "MTR",
+                "RUS",
+                "Sportpark Heide",
+                "HOM",
+                "MTR",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "26.07.2026",
+                "13:00",
+                "0401004",
+                "",
+                "FRI",
+                "FUL",
+                "Spielfeld „Seewiese“",
+                "KAS",
+                "FRI",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "01.08.2026",
+                "13:00",
+                "0401049",
+                "",
+                "HOM2",
+                "MTR",
+                "Taunus-Baseballpark",
+                "RUS",
+                "HOM",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "01.08.2026",
+                "13:00",
+                "0401050",
+                "",
+                "DAW2",
+                "FRI",
+                "Memory-Field",
+                "FRA",
+                "DAW",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "02.08.2026",
+                "13:00",
+                "0401051",
+                "",
+                "RUS",
+                "FRA",
+                "Baseball am Keglerheim 15",
+                "DAW",
+                "RUS",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "08.08.2026",
+                "13:00",
+                "0401033",
+                "",
+                "FRI",
+                "FRA",
+                "Spielfeld „Seewiese“",
+                "KAS",
+                "FRI",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "09.08.2026",
+                "13:00",
+                "0401053",
+                "",
+                "DAW2",
+                "FUL",
+                "Memory-Field",
+                "FRI",
+                "DAW",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "15.08.2026",
+                "14:30",
+                "0401054",
+                "",
+                "MTR",
+                "KAS",
+                "Sportpark Heide",
+                "FRA",
+                "MTR",
+                "-"
+              ],
+              "score": "14:30"
+            },
+            {
+              "cells": [
+                "15.08.2026",
+                "13:00",
+                "0401055",
+                "",
+                "DAW2",
+                "HOM2",
+                "Memory-Field",
+                "FRI",
+                "DAW",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "16.08.2026",
+                "13:00",
+                "0401021",
+                "",
+                "FRA",
+                "RUS",
+                "Stadion an den Sandhöfer Wiesen",
+                "HOM",
+                "FRA",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "22.08.2026",
+                "13:00",
+                "0401006",
+                "",
+                "HOM2",
+                "FRA",
+                "Taunus-Baseballpark",
+                "MTR",
+                "HOM",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "22.08.2026",
+                "13:00",
+                "0401012",
+                "",
+                "KAS",
+                "MTR",
+                "Herkules Field",
+                "FRI",
+                "KAS",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "23.08.2026",
+                "13:00",
+                "0401032",
+                "",
+                "FUL",
+                "DAW2",
+                "Field#1, Münsterfeldpark",
+                "KAS",
+                "FUL",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "30.08.2026",
+                "13:00",
+                "0401022",
+                "",
+                "FRA",
+                "MTR",
+                "Stadion an den Sandhöfer Wiesen",
+                "DAW",
+                "FRA",
+                "-"
+              ],
+              "score": "13:00"
+            },
+            {
+              "cells": [
+                "06.09.2026",
+                "13:00",
+                "0401056",
+                "",
+                "FUL",
+                "MTR",
+                "Field#1, Münsterfeldpark",
+                "KAS",
+                "FUL",
+                "-"
+              ],
+              "score": "13:00"
+            }
+          ],
+          "headers": [
+            "Datum",
+            "Zeit",
+            "Spielnr.",
+            "",
+            "Heim",
+            "Gast",
+            "Ort",
+            "UMP",
+            "SCO",
+            "Erg."
+          ],
+          "section": "Spielplan"
+        }
+      ],
+      "scorelines": [
+        "22:53",
+        "00:00",
+        "47:47",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "20:0",
+        "30:0",
+        "50:1",
+        "60:2",
+        "70:3",
+        "80:5",
+        "3:1",
+        "2:1",
+        "1:1",
+        "2:2",
+        "3:3",
+        "13:00",
+        "22:12",
+        "14:00",
+        "19:1",
+        "17:1",
+        "15:00",
+        "13:9",
+        "13:3",
+        "23:25",
+        "3:21",
+        "2:12",
+        "15:30",
+        "16:00",
+        "14:30",
+        "02:20",
+        "12:33"
+      ]
+    }
+  }
+}

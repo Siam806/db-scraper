@@ -1,5 +1,10 @@
 import { createSupabaseFromEnv } from '../lib/supabase.js';
-import { aggregateScorelines, aggregateStatistics } from '../lib/data-aggregator.js';
+import {
+  aggregateScorelines,
+  aggregateStatistics,
+  normalizeScorelinesData,
+  normalizeStatisticsData
+} from '../lib/data-aggregator.js';
 
 export default async function handler(req, res) {
   if (req.method !== 'GET') {
@@ -38,11 +43,15 @@ export default async function handler(req, res) {
 
     const record = data?.[0] ?? null;
     if (!record) {
-      return res.status(200).json({ ok: true, data: null, view: null });
+      return res.status(200).json({ ok: true, data: null, raw: null, view: null });
     }
 
+    const normalized = kind === 'statistics'
+      ? normalizeStatisticsData(record.data)
+      : normalizeScorelinesData(record.data);
+
     let view = null;
-    let responseData = record;
+    let responseData = normalized;
 
     if (hasAggregationQuery) {
       view = kind === 'statistics'
@@ -53,11 +62,11 @@ export default async function handler(req, res) {
 
     const response = {
       ok: true,
-      data: responseData
+      data: responseData,
+      raw: record
     };
 
     if (hasAggregationQuery) {
-      response.raw = record;
       response.view = view;
     }
 
