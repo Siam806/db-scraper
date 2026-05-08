@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { scrapeAllLeagues } from '../lib/scraper.js';
 
 const dryRun = process.env.DRY_RUN === 'true';
