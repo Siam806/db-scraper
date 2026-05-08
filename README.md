@@ -31,6 +31,7 @@ Set these environment variables in Vercel/GitHub Actions:
 - `SUPABASE_SERVICE_ROLE_KEY`
 - `SUPABASE_SCORELINES_TABLE` (optional, default `scorelines`)
 - `SUPABASE_STATISTICS_TABLE` (optional, default `statistics`)
+- `SUPABASE_STATISTICS_SNAPSHOTS_TABLE` (optional, default `statistics_snapshots`)
 
 Expected table shape for both tables:
 
